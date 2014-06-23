@@ -4,5 +4,5 @@
 rild.libpath=/vendor/lib/libsec-ril.so
 rild.libargs=-d /dev/ttys0
 telephony.lteOnCdmaDevice=0
-ro.sf.lcd_density=160
+ro.sf.lcd_density=200
 ro.sf.hwrotation=270
