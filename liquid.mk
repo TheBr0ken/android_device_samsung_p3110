@@ -21,8 +21,8 @@
 PRODUCT_RELEASE_NAME := p3110
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1024
-TARGET_SCREEN_WIDTH := 600
+PRODUCT_COPY_FILES += \
+    device/samsung/p3110/overlay/prebuilt/1200.zip:system/media/bootanimation.zip
 
 # Inherit some common Liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_tablet.mk)
